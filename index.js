@@ -12,15 +12,15 @@ app.use(express.json());
 app.use(express.static('public'));
 app.use(cookieParser());
 
-app.get('/send-mail', (req, res) => {
-  mailService.sendMail({
-    from: "sameh@gmail.com",
-    to: "user@gmail.com, user2@gmail.com",
-    subject: "Hello",
-    html: "<h1>Hello</h1>"
-  });
-  res.send("Send Mail");
-});
+// app.get('/send-mail', (req, res) => {
+//   mailService.sendMail({
+//     from: "sameh@gmail.com",
+//     to: "user@gmail.com, user2@gmail.com",
+//     subject: "Hello",
+//     html: "<h1>Hello</h1>"
+//   });
+//   res.send("Send Mail");
+// });
 
 
 const postsRouter = require('./routers/posts.router');
