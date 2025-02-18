@@ -7,13 +7,9 @@ const app = express();
 
 // Middleware
 app.engine('html', ejs.renderFile);
-
 app.use(express.urlencoded({ extended: true }));
-
 app.use(express.json());
-
 app.use(express.static('public'));
-
 app.use(cookieParser());
 
 app.get('/send-mail', (req, res) => {
