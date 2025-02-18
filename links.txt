@@ -1,0 +1,27 @@
+EJS
+https://ejs.co/#install
+https://expressjs.com/en/5x/api.html#app.engine
+
+
+SQLite3
+https://www.npmjs.com/package/sqlite3
+https://sqlitebrowser.org/
+
+SQLite3 Documentation
+https://github.com/TryGhost/node-sqlite3/wiki/API#runsql--param---callback
+
+MongoDB
+https://www.mongodb.com/try/download/community
+https://www.mongodb.com/products/tools/compass
+
+
+Postman
+https://www.postman.com/
+
+
+Zod
+https://zod.dev/
+
+
+NodeMailer
+https://www.nodemailer.com/
