@@ -1,0 +1,41 @@
+1- I can't go back to the prev changes in the code
+2- I can't share the code
+3- I can't publish the project
+
+
+
+---------------------
+
+Git => Version Control System (VCS)
+
+VS Code shortcuts:
+- Ctrl + Shift + g
+- Ctrl + Shift + p => source control
+
+
+Repository مستودع  -> Repo
+
+.git -> (ls -a) or (dir)
+
+"Initialize Repository" = (git init)
+
+any changes should be recorded with a message
+
+Commit = Save
+
+
+Commands:
+-------------------
+Initialize Repository
+=> git init
+
+staging a file to save the save (clicking the plus icon +)
+=> git add index.js
+
+making a new commit
+=> git commit -m "removed the comments from index.js"
+
+show all commits
+=> git log
+
+git remote add origin https://github.com/SamehElalfi/blog.git
