@@ -7,8 +7,8 @@ const app = express();
 
 // Middleware
 app.engine('html', ejs.renderFile);
-app.use(express.urlencoded({ extended: true }));  // Allows us to use req.body (from URL encoded requests (HTML Form))
-app.use(express.json());  // Allows us to use req.body (from JSON requests)
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 app.use(express.static('public'));
 app.use(cookieParser());
 
