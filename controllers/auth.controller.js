@@ -5,8 +5,6 @@ const loginSchema = require('../schemas/login.schema');
 module.exports.login = (req, res) => {
   loginSchema.parse(req.body);
 
-  console.log(req.body);
-
   db.all(
     `SELECT * FROM users WHERE email=? AND password=? LIMIT 1`,
     [req.body.email, req.body.password],
